@@ -1,0 +1,160 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.container-fluid{
+    margin-left:35px;
+    margin-right: 35px;
+
+}
+
+#coverImg {
+
+    position: relative;
+}
+
+#coverImg::after {
+    content: "";
+    background: url("../sources/honeyBack1.jpg");
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#row1{
+    padding-bottom: 20px;
+    width:20%;
+    margin-right:-35px;
+    float:right;
+}
+#searchT{
+    width:67%;
+    display:inline-block;
+    padding:0;
+    margin:0;
+ }
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+:-moz-placeholder {
+    font-style: italic;
+}
+::-moz-placeholder {
+    font-style: italic;
+}
+:-ms-input-placeholder {
+    font-style: italic;
+}
+#iconsT{
+    display:inline-block;
+    width:30%;
+}
+#iconsT>a{
+    text-decoration: none;
+    display:inline-block;
+    width:25%;
+}
+.container-fluid{
+    padding: 0 0;
+}
+.clearPadMar{
+    padding: 0;
+    margin:0;
+}
+
+
+#row2>div>div a{
+    line-height: 50px;
+    vertical-align: middle;
+    color:rgb(70,70,70);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 3%;
+}
+
+#row2 > div.col-sm-5.clearPadMar > a:nth-child(6){
+    padding-right: 0;
+}
+
+main{
+    padding-top: 30px;
+    position:relative;
+}
+main>h1,h3{
+    text-align: center;
+
+}
+#author{
+    padding-top:20px;
+    float:right;
+
+
+}
+
+footer>div{
+    background-color: rgb(249,249,249);
+    opacity: 0.7;
+}
+
+.postImg{
+    margin:5px;
+    border:3px solid gray;
+    box-shadow: 3px 3px 3px 3px whitesmoke;
+    width:100%;
+
+}
+
+.leftNav>li{
+    padding-bottom: 18px;
+}
+
+#homeMenu{
+    height:50px;
+    background-color: rgb(249,249,249);
+    opacity: 0.7;
+}
+#homeMenu>a{
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+    padding-left: 6%;
+}
+#slider{
+    position:relative;
+
+}
+#sliderBox{
+    position:absolute;
+    right:20%;
+    top:15%;
+    z-index:5;
+    background-color: rgb(72,73,75);
+    opacity: 0.8;
+
+}
+
+#sliderBox>h1{
+    color:white;
+    font-weight: bold;
+    opacity: 1 !important;
+    text-align:center;
+
+}
+.cent{
+    text-align: center;
+}
+
+hr{
+    border:1px solid  grey;
+    font-size: larger;
+
+}
