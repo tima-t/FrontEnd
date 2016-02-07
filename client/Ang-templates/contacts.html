@@ -8,7 +8,7 @@
                     </p>
             </div>
             <hr/>
-            <div class="row clearPadMar">
+         <!--   <div class="row clearPadMar">
                 <div class="col-md-3">
                     <h3>Addresss</h3>
                     <img src="client/sources/post.jpg" class="postImg"  alt=""/>
@@ -24,7 +24,18 @@
                     <img src="client/sources/post.jpg" class="postImg" alt="img"/>
                     <p>Recent comments</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I</p>
                 </div>
+            </div> -->
+
+
+
+            <div class="row clearPadMar" >
+                <div class="col-md-3 col-md-offset-1" ng-repeat="contact in contacts">
+                    <h3>{{contact.name}}</h3>
+                    <img ng-src="client/sources/{{contact.srcT}}" class="postImg" alt="contact" />
+                    <p>Our contacts</h2> {{contact.info}}</p>
+                </div>
             </div>
+
 
 
 

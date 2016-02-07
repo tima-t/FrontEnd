@@ -22,7 +22,7 @@
 					 
 					 <div>
 					 <div class="row">
-					<div class="col-md-12"> <h3 style="float:left">30 comments</h3></div>
+					<div class="col-md-12"> <h3 style="float:left">{{comments.length}} comments</h3></div>
 					 </div>
 					 <div class="row">
 					
@@ -36,24 +36,28 @@
 								
 							</div>
 					 </div>
-					  <div class="col-md-2 col-md-offset-1">
-                         <img src="client/sources/post.jpg" class="postImg" alt="post image" width="100%" />
-                     </div>
-					 <div class="col-md-8">
-						<h4>Nick someone</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. Integer semper quis lorem eu pellentesque. Nulla eget pulvinar neque. Suspendisse iaculis lectus purus,</p>
-						<button class="btn btn-default moreT"><b>Read more</b></button>
-						
-					 </div>
+                     <div class="row" ng-repeat="com in comments"  >
+					         <div class="col-md-2 col-md-offset-1" >
+                                <img ng-src="client/sources/{{com.srcT}}" class="postImg" alt="post image" width="100%" />
+                            </div>
+					        <div class="col-md-8"  >
+					    	<h4>{{com.name}}</h4>
+					    	<p>{{com.info}}</p>
+					    	<button class="btn btn-default moreT"><b>Read more</b></button>
+
+					        </div>
+                    </div>
 					 
 					 </div>
 					 <div class="row">
 					  <div class="col-md-12">
 						<div class="row marginTop "> <h3 style="float:left">Leave a reply</h3></div>
-						<div class="row marginTop"> <input style="width:100%" type="text" placeholder="name"></div>
-						 <div class="row marginTop"><input style="width:100%"  type="text" placeholder="email"></div>
-						 <div class="row marginTop"><textarea style="width:100%"  placeholder="message"></textarea></div>
-						 <button class="btn btn-default moreT"><b>Read more</b></button>
+                          <form ng-submit="createPost()">
+						    <div class="row marginTop"> <input style="width:100%" type="text" placeholder="name" ng-model="commentUser"></div>
+						     <div class="row marginTop"><input style="width:100%"  type="text" placeholder="email" ng-model="commentEmail"></div>
+						     <div class="row marginTop"><textarea style="width:100%"  placeholder="message" ng-model="comInfo"></textarea></div>
+						     <button type="submit" class="btn btn-default moreT"><b>Submit</b></button>
+                          </form>
 					  </div>
 					 </div>
 					 

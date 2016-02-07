@@ -2,9 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81ecaf7b-64c1-4660-aba8-8fdc818230ca" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\home.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/app.js" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\js\script.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\css\bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\css\bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\dist\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\grunt\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\grunt\bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\grunt\configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\js\transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\badges.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\close.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\code.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\media.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\image.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\resize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\size.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\modals.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\pager.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\print.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\theme.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\type.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\less\wells.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\bootstrap\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\bullet-nav.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\captions.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\css\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\img\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\img\1@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\img\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\img\2@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\img\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\img\3@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\img\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\img\4@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\example\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\extensions\bullet-nav\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\extensions\bullet-nav\iis-bullet-nav.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\extensions\captions\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\extensions\captions\iis-captions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\ideal-image-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\ideal-image-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\ideal-image-slider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\node_modules\ideal-image-slider\themes\default\default.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\frontEnd\client\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/angular-route/angular-route.js" afterPath="$PROJECT_DIR$/client/js/angular-route/angular-route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/angular/angular.js" afterPath="$PROJECT_DIR$/client/js/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Ang-templates/contacts.html" afterPath="$PROJECT_DIR$/client/Ang-templates/contacts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/style.css" afterPath="$PROJECT_DIR$/client/styles/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/Ang-templates/post.html" afterPath="$PROJECT_DIR$/client/Ang-templates/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="frontEnd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,36 +176,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5636363">
-              <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#footer#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Ang-templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.038462">
-              <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/js/script.js">
+      <file leaf-file-name="posts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/models/posts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36408567">
-              <caret line="169" column="6" selection-start-line="169" selection-start-column="6" selection-end-line="169" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postsController" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/controllers/postsController">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -63,34 +211,91 @@
       <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/Ang-templates/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.576923">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/styles/style.css">
+      <file leaf-file-name="homeController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Ang-controllers/homeController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.206897">
-              <caret line="219" column="28" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="129" column="17" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Ang-controllers/loginController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productsController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Ang-controllers/productsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Ang-controllers/registerController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding>
+                <element signature="e#241#280#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postsController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/Ang-controllers/postsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2520593">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/Ang-templates/register.html">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/Ang-templates/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.884615">
-              <caret line="23" column="176" selection-start-line="23" selection-start-column="176" selection-end-line="23" selection-end-column="176" />
-              <folding />
+            <state vertical-scroll-proportion="-7.3076925">
+              <caret line="57" column="118" selection-start-line="57" selection-start-column="118" selection-end-line="57" selection-end-column="118" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,10 +319,24 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/client/styles/style.css" />
         <option value="$PROJECT_DIR$/client/Ang-templates/register.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/client/Ang-templates/contacts.html" />
         <option value="$PROJECT_DIR$/client/Ang-templates/home.html" />
         <option value="$PROJECT_DIR$/client/js/script.js" />
+        <option value="$PROJECT_DIR$/client/js/angular/angular.js" />
+        <option value="$PROJECT_DIR$/client/Ang-controllers/skinController.js" />
+        <option value="$PROJECT_DIR$/client/Ang-controllers/loginController.js" />
+        <option value="$PROJECT_DIR$/client/Ang-controllers/productsController.js" />
+        <option value="$PROJECT_DIR$/client/Ang-controllers/registerController.js" />
+        <option value="$PROJECT_DIR$/client/js/app.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/client/Ang-controllers/homeController.js" />
+        <option value="$PROJECT_DIR$/client/Ang-controllers/contactController.js" />
+        <option value="$PROJECT_DIR$/client/Ang-templates/contacts.html" />
+        <option value="$PROJECT_DIR$/client/Ang-templates/post.html" />
+        <option value="$PROJECT_DIR$/server/models/posts.js" />
+        <option value="$PROJECT_DIR$/server/controllers/postsController" />
+        <option value="$PROJECT_DIR$/server/server.js" />
+        <option value="$PROJECT_DIR$/client/Ang-controllers/postsController.js" />
       </list>
     </option>
   </component>
@@ -157,8 +376,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,6 +404,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -205,18 +472,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="Ang-controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -249,10 +519,19 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="81ecaf7b-64c1-4660-aba8-8fdc818230ca" name="Default" comment="" />
@@ -263,27 +542,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -295,7 +582,102 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5636363">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#footer#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-templates/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="134" column="4" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/postsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/productsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/registerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="e#241#280#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/skinController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#232#271#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -306,17 +688,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="169" column="6" selection-start-line="169" selection-start-column="6" selection-end-line="169" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/Ang-templates/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="219" column="28" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/Ang-templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.884615">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="176" selection-start-line="23" selection-start-column="176" selection-end-line="23" selection-end-column="176" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="176" selection-start-line="23" selection-start-column="176" selection-end-line="23" selection-end-column="176" />
           <folding />
         </state>
@@ -324,24 +738,165 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.206897">
+        <state vertical-scroll-proportion="0.0">
           <caret line="219" column="28" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4642" column="19" selection-start-line="4642" selection-start-column="19" selection-end-line="4642" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/skinController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#232#271#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="118" column="53" selection-start-line="118" selection-start-column="53" selection-end-line="118" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#footer#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/Ang-templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.038462">
+        <state vertical-scroll-proportion="-12.230769">
           <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/script.js">
+    <entry file="file://$PROJECT_DIR$/client/Ang-templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36408567">
-          <caret line="169" column="6" selection-start-line="169" selection-start-column="6" selection-end-line="169" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/contactController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="21" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-templates/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.576923">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/registerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="e#241#280#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="17" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-templates/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3076925">
+          <caret line="57" column="118" selection-start-line="57" selection-start-column="118" selection-end-line="57" selection-end-column="118" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/productsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/postsController">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/Ang-controllers/postsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2520593">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>
