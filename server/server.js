@@ -16,6 +16,7 @@ app.get("/",function(req,res){
 });
 
 app.post("/api/posts", postController.create);
+app.get("/api/posts",postController.get);
 
 app.listen(3000,function(){
     console.log("I am in");

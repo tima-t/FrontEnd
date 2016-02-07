@@ -8,7 +8,7 @@
     honeyApp.controller('mainController', function($scope) {
 
         // create a message to display in our view
-        $scope.message = 'Everyone come and see how good I look!';
+        $
     });
 	
 	  honeyApp.config(function($routeProvider) {
@@ -37,9 +37,9 @@
             }).when('/register', {
                 templateUrl : 'client/Ang-templates/register.html',
                 controller  : 'registerController'
-            }).when('/skin', {
+            }).when('/news', {
                 templateUrl : 'client/Ang-templates/index.html',
-                controller  : 'skinController'
+                controller  : 'newsController'
             });
     });
 	

@@ -6,15 +6,11 @@ honeyApp.controller('postsController',['$scope','$resource', function($scope,$re
     $scope.comInfo = '';
     var Post= $resource('/api/posts');
     Post.query(function(results){
-        $scope.posts=results;
+        $scope.comments=results;
    });
     window.scrollTo(0, 600);
 
-    $scope.comments=[
-        {name:"Nick",srcT:"post.jpg", info:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I"   },
-        {name:"Joe",srcT:"post.jpg", info:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I"   },
-        {name:"Ana",srcT:"post.jpg", info:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I"   },
-    ];
+    $scope.comments=[];
 
 
     $scope.createPost= function(){

@@ -125,9 +125,11 @@ honeyApp.controller('homeController',['$scope','$resource', function($scope,$res
 
     };
     $scope.$on('$routeChangeSuccess', imgSlider);
-    $scope.$watch('$viewContentLoaded', imgSlider);
-    $scope.$on('$stateChangeSuccess', imgSlider);
+    $scope.$on('$viewContentLoaded', imgSlider);
+   // $scope.$on('$stateChangeSuccess', imgSlider);
      imgSlider();
+
+
 
 
 

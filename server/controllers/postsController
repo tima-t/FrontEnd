@@ -8,3 +8,10 @@ module.exports.create = function(req,res){
     });
 
 }
+
+module.exports.get=function(req,res){
+    Post.find({},function(err,result){
+        res.json(result);
+    })
+
+}
