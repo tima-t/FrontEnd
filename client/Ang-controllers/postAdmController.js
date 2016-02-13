@@ -5,7 +5,7 @@ honeyApp.controller('postAdmController',['$scope','$resource', function($scope,$
     // create a message to display in our view
     $scope.comInfo = '';
     var PostAdm= $resource('/api/postsAdm');
-    var images=["post.jpg","post1.jpg","post2.jpg","post3.jpg"];
+    var images=["post.png","post1.png","post2.png","post3.png"];
     $scope.nameAdm=localStorage.getItem("name");
 
 

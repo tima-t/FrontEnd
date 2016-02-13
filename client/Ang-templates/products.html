@@ -1,61 +1,23 @@
 
 
-            <div class="row clearPadMar" >
-                <h1 class="cent">This is the home of the honey</h1>
-                <p class="cent">Here you can find our products <br/>
-                    and a lot of information and articles</p>
-            </div>
-            <hr/>
-            <div class="row clearPadMar">
-                <div class="col-md-3">
-                    <h3>Some info</h3>
-                    <img src="client/sources/post.jpg" class="postImg"  alt=""/>
-                    <p>Recent comments</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I</p>
-                </div>
-                <div  class="col-md-3 col-md-offset-1">
-                    <h3>Some info</h3>
-                    <img src="client/sources/post.jpg" class="postImg"  alt="img"/>
-                    <p>Recent comments</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I</p>
-                </div>
-                <div  class="col-md-3 col-md-offset-1">
-                    <h3>Some info</h3>
-                    <img src="client/sources/post.jpg" class="postImg" alt="img"/>
-                    <p>Recent comments</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I</p>
-                </div>
-            </div>
-            <div class="row clearPadMar">
-                <div class="col-md-3">
-                    <h3>Some info</h3>
-                    <img src="client/sources/post.jpg" class="postImg"  alt=""/>
-                    <p>Recent comments</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I</p>
-                </div>
-                <div  class="col-md-3 col-md-offset-1">
-                    <h3>Some info</h3>
-                    <img src="client/sources/post.jpg" class="postImg"  alt="img"/>
-                    <p>Recent comments</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I</p>
-                </div>
-                <div  class="col-md-3 col-md-offset-1">
-                    <h3>Some info</h3>
-                    <img src="client/sources/post.jpg" class="postImg" alt="img"/>
-                    <p>Recent comments</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I</p>
-                </div>
-            </div>
-            <div class="row clearPadMar marginBottom">
-                <div class="col-md-3">
-                    <h3>Some info</h3>
-                    <img src="client/sources/post.jpg" class="postImg"  alt=""/>
-                    <p>Recent comments</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I</p>
-                </div>
-                <div  class="col-md-3 col-md-offset-1">
-                    <h3>Some info</h3>
-                    <img src="client/sources/post.jpg" class="postImg"  alt="img"/>
-                    <p>Recent comments</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I</p>
-                </div>
-                <div  class="col-md-3 col-md-offset-1">
-                    <h3>Some info</h3>
-                    <img src="client/sources/post.jpg" class="postImg" alt="img"/>
-                    <p>Recent comments</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. I</p>
-                </div>
-            </div>
+
+         <div class="row clearPadMar" >
+             <h1 class="cent">This is the home of the honey</h1>
+             <p class="cent">Here you can find our products <br/>
+                 and a lot of information and articles</p>
+         </div>
+         <hr/>
+         <div class="row"   >
+
+             <div ng-repeat="prod in products"  class="col-md-3 col-md-offset-1">
+
+                 <h3>{{prod.heading}}</h3>
+                 <img ng-src="client/sources/{{prod.img}}" class="postImg" height="200px" alt="img"/>
+                 <h4 style="text-align:center">Price : {{prod.price}}$</h4>
+                 <p >{{prod.info}}</p>
+                 <button class="btn btn-default moreT"><b>Read more</b></button>
+
+             </div>
+         </div>
 
 

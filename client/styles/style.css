@@ -32,6 +32,11 @@
     margin-right:-35px;
     float:right;
 }
+
+#mainMenu{
+    float:right;
+    width:50%;
+}
 #searchT{
     width:67%;
     display:inline-block;

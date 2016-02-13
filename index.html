@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="client/styles/font-awesome-4.5.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="client/js/ideal-image-slider/ideal-image-slider.css">
     <link rel="stylesheet" href="client/js/ideal-image-slider/themes/default/default.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="client/styles/queries.css"  />
     <script src="client/js/angular/angular.js"></script>
     <script src="client/js/angular-resource/angular-resource.js"></script>
     <script src="client/js/angular-route/angular-route.min.js"></script>
@@ -24,7 +24,7 @@
         <header>
             <div class="row clearPadMar ">
                 <div class="clearPadMar" id="row1">
-                    <div class="clearPadMar" style="background-color: aqua" >
+                    <div class="clearPadMar"  >
 
                      <span id="iconsT">
                         <a href="#"><i class="fa fa-tumblr"></i></a>
@@ -36,14 +36,14 @@
                 </div>
             </div>
             <div class="row clearPadMar" id="row2"  >
-                <div class="col-md-2 clearPadMar"  >
+                <div class=" col-sm-6 col-md-2 clearPadMar"  >
                     <img src="client/sources/logo.png" id="logo" alt="logo" width="80px"/>
 
                 </div>
 
-                <div class="col-md-10"  >
+                <div class="col-sm-12 col-md-10"  >
 
-                    <div style="float:right; width:50%">
+                    <div id="mainMenu" >
                         <a href="#/">Home</a>
                         <a href="#news">News</a>
                         <a href="#products">Products</a>
@@ -108,16 +108,10 @@
         <footer>
             <div class="row clearPadMar" id="footerRow">
                 <div class="col-md-3"><h2><img src="client/sources/logo.png"  alt="logo" width="80px"/></h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. Integer semper quis lorem eu pellentesque. Nulla eget pulvinar neque. Suspendisse iaculis lectus purus, sed tincidunt massa vehicula eget. Nunc dignissim pulvinar erat, at fermentum neque auctor sollicitudin. Proin sit amet lorem et massa sagittis consectetur. Aliquam ac nunc non orci accumsan tempor. Fusce scelerisque risus sit amet arcu scelerisque, eu accumsan nunc mattis.</div>
-                <div class="col-md-3"><h4>
-                    <select name="speed" id="theme">
-                        <option>aver</option>
-                        <option selected="selected">light</option>
-                        <option>dark</option>
-
-                    </select></h4>
+                <div class="col-md-3"><h2><a id="light" href="#/">Light</a></h2>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. Integer semper quis lorem eu pellentesque. Nulla eget pulvinar neque. Suspendisse iaculis lectus purus, sed tincidunt massa vehicula eget. Nunc dignissim pulvinar erat, at fermentum neque auctor sollicitudin. Proin sit amet lorem et massa sagittis consectetur. Aliquam ac nunc non orci accumsan tempor. Fusce scelerisque risus sit amet arcu scelerisque, eu accumsan nunc mattis.</div>
-                <div class="col-md-3"><h2>Text Widgets</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. Integer semper quis lorem eu pellentesque. Nulla eget pulvinar neque. Suspendisse iaculis lectus purus, sed tincidunt massa vehicula eget. Nunc dignissim pulvinar erat, at fermentum neque auctor sollicitudin. Proin sit amet lorem et massa sagittis consectetur. Aliquam ac nunc non orci accumsan tempor. Fusce scelerisque risus sit amet arcu scelerisque, eu accumsan nunc mattis.</div>
-                <div class="col-md-3"><h2>Recent comments</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. Integer semper quis lorem eu pellentesque. Nulla eget pulvinar neque. Suspendisse iaculis lectus purus, sed tincidunt massa vehicula eget. Nunc dignissim pulvinar erat, at fermentum neque auctor sollicitudin. Proin sit amet lorem et massa sagittis consectetur. Aliquam ac nunc non orci accumsan tempor. Fusce scelerisque risus sit amet arcu scelerisque, eu accumsan nunc mattis.</div>
+                <div class="col-md-3"><h2><a id="normal" href="#/">Normal</a></h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. Integer semper quis lorem eu pellentesque. Nulla eget pulvinar neque. Suspendisse iaculis lectus purus, sed tincidunt massa vehicula eget. Nunc dignissim pulvinar erat, at fermentum neque auctor sollicitudin. Proin sit amet lorem et massa sagittis consectetur. Aliquam ac nunc non orci accumsan tempor. Fusce scelerisque risus sit amet arcu scelerisque, eu accumsan nunc mattis.</div>
+                <div class="col-md-3"><h2><a id="dark" href="#/">Dark</a></h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet aliquam lacus. Mauris luctus tincidunt eros, in viverra arcu rhoncus molestie. Integer semper quis lorem eu pellentesque. Nulla eget pulvinar neque. Suspendisse iaculis lectus purus, sed tincidunt massa vehicula eget. Nunc dignissim pulvinar erat, at fermentum neque auctor sollicitudin. Proin sit amet lorem et massa sagittis consectetur. Aliquam ac nunc non orci accumsan tempor. Fusce scelerisque risus sit amet arcu scelerisque, eu accumsan nunc mattis.</div>
             </div>
             <div class="row clearPadMar" >
                 <div id="author">
@@ -158,8 +152,7 @@
        });
        slider.start();
 
-       $( "#theme" ).selectmenu();
-        $("#theme-button").css("margin-right","7%").css("margin-top","5px");
+
 </script>
 
 <!--login/logout -->
@@ -183,6 +176,24 @@
     })
 </script>
 
+<!-- appearacnce -->
+<script>
+    $("#light").on("click",function(){
+     $("#coverImg").css("background","url('client/sources/honeyBack1.png')");
+        $("body").css("color","black");
+
+    });
+
+    $("#normal").on("click",function(){
+        $("#coverImg").css("background","url('client/sources/back1.jpg')");
+        $("body").css("color","black");
+    });
+
+    $("#dark").on("click",function(){
+        $("#coverImg").css("background","url('client/sources/backL1.jpg')");
+        $("body").css("color","#FFA500");
+    });
+</script>
 
 </body>
 </html>

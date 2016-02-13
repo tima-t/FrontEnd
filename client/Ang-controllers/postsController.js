@@ -9,8 +9,13 @@ honeyApp.controller('postsController',['$scope','$resource', function($scope,$re
         $scope.comments=results;
    });
     window.scrollTo(0, 600);
+    var PostMain= $resource('/api/postsAdm');
+        PostMain.query(function(results){
+            $scope.posts=results;
+       });
 
     $scope.comments=[];
+    $scope.posts=[];
 
 
     $scope.createPost= function(){

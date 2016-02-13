@@ -1,9 +1,9 @@
 
 
-                 <h1>Category title</h1>
-                 <h3>Category discuss comes here</h3>
+                 <h1>Honey posts</h1>
+                 <h3>Category honey</h3>
 
-             <div class="row clearPadMar">
+            <div class="row clearPadMar">
                  <div class="col-md-7">
                      <h1>Post title goes here</h1>
                      <hr/>
@@ -27,7 +27,7 @@
 					 <div class="row">
 					
 							<div class="col-md-3">
-								<img src="client/sources/post.jpg" class="postImg" alt="post image" width="100%" />
+								<img ng-src="client/sources/post.jpg" class="postImg" alt="post image" width="100%" />
 							</div>
 							<div class="col-md-8">
 								<h4>Nick someone</h4>
@@ -36,6 +36,8 @@
 								
 							</div>
 					 </div>
+
+
                      <div class="row" ng-repeat="com in comments"  >
 					         <div class="col-md-2 col-md-offset-1" >
                                 <img ng-src="client/sources/{{com.src}}" class="postImg" alt="post image" width="100%" />

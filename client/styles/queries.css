@@ -1,0 +1,22 @@
+@media (max-width: 800px){
+
+
+    #row1{
+        width:80%;
+    }
+    #log,#new{
+        width:80%;
+
+
+    }
+
+    #log1,#reg{
+        padding-bottom: 30px;
+        margin-left:10%;
+    }
+
+    #mainMenu{
+        width:100%;
+        clear:both;
+    }
+}
