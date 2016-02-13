@@ -7,15 +7,15 @@
         </div>
         <hr/>
         <div class="row clearPadMar">
-            <form role="form" action="register" method="post" class="marginTop">
+            <form role="form" ng-submit="registerUser()" class="marginTop">
                 <div class="form-group">
-                    <input style="width:30%; margin-left:30%;" type="text" name="user" class="form-control" id="usr" placeholder="Username" required>
+                    <input style="width:30%; margin-left:30%;" type="text" name="user" class="form-control" ng-model="regName" id="usr" placeholder="regUserName" required>
                 </div>
                 <div class="form-group">
-                    <input style="width:30%; margin-left:30%;" type="password" name="pass" class="form-control" id="pwd" placeholder="Password" required>
+                    <input style="width:30%; margin-left:30%;" type="password" name="pass" class="form-control" ng-model="regPass" id="pwd" placeholder="regPassword" required>
                 </div>
                 <div class="form-group">
-                    <input type="email" style="width:30%; margin-left:30%;" name="mail" class="form-control" id="mail" placeholder="Email" required>
+                    <input type="email" style="width:30%; margin-left:30%;" name="mail" class="form-control" id="mail" ng-model="regEmail" placeholder="regEmail" required>
                 </div>
 
 

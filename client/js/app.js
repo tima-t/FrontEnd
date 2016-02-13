@@ -8,7 +8,7 @@
     honeyApp.controller('mainController', function($scope) {
 
         // create a message to display in our view
-        $
+
     });
 	
 	  honeyApp.config(function($routeProvider) {
@@ -40,6 +40,12 @@
             }).when('/news', {
                 templateUrl : 'client/Ang-templates/index.html',
                 controller  : 'newsController'
+            }).when('/postAdm', {
+                templateUrl : 'client/Ang-templates/postAdm.html',
+                controller  : 'postAdmController'
+             }).when('/productAdm', {
+                templateUrl : 'client/Ang-templates/productAdm.html',
+                controller  : 'productsAdmController'
             });
     });
 	

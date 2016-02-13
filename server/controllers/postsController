@@ -4,6 +4,7 @@ var Post = require("../models/posts");
 module.exports.create = function(req,res){
     var post = new Post(req.body);
     post.save(function(err,result){
+        console.log(adminTmt);
         res.json(result);
     });
 

@@ -103,6 +103,15 @@ footer>div{
     opacity: 0.7;
 }
 
+.loginMain{
+
+}
+
+.logout{
+    display:none;
+}
+
+
 .postImg{
     margin:5px;
     border:3px solid gray;
